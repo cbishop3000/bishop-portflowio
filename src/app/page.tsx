@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white font-sans relative overflow-hidden">
       {/* Full-bleed video section */}
-      <section className="relative w-full h-screen overflow-hidden">
+      <section className="relative w-full h-[100dvh] overflow-hidden">
         <video
           src="/bishop.webm"
           autoPlay
