@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -35,9 +35,10 @@ export default function ArtPage() {
         Artworks
       </motion.h2>
 
-      {/* Here, we're embedding the widget directly */}
+      {/* Force TypeScript to ignore this error */}
+      {/* @ts-ignore */}
       <div className="widget-container">
-        <behold-widget feed-id="dYGJMEPY0sKYf2qop0se"></behold-widget>
+        <div dangerouslySetInnerHTML={{ __html: `<behold-widget feed-id="dYGJMEPY0sKYf2qop0se"></behold-widget>` }} />
       </div>
     </main>
   );
