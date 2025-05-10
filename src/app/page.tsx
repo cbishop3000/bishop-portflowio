@@ -37,9 +37,7 @@ export default function Home() {
         <CornerButton label="Websites" position="top-0 right-0" link="/websites" />
         <CornerButton label="Music" position="bottom-0 left-0" link="/music" />
         <CornerButton label="Art" position="bottom-0 right-0" link="/art" />
-      </section>
-
-      {/* Support Me Buttons */}
+        {/* Support Me Buttons */}
       <div className="absolute bottom-4 left-1/2 transform -translate-x-[40%] flex flex-col sm:flex-row items-center gap-2 sm:space-x-2 z-10">
         <motion.a
           href="https://cash.app/$chrismadechrispaid"
@@ -62,6 +60,9 @@ export default function Home() {
           📲 Venmo
         </motion.a>
       </div>
+      </section>
+
+      
     </main>
   );
 }
