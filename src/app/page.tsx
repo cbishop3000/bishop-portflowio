@@ -40,16 +40,16 @@ export default function Home() {
       </section>
 
       {/* Support Me Buttons */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-4 z-10">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-[40%] flex flex-col sm:flex-row items-center gap-2 sm:space-x-2 z-10">
         <motion.a
           href="https://cash.app/$chrismadechrispaid"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          className="bg-green-500 text-white px-6 py-2 rounded-full font-semibold shadow-md hover:bg-green-400 transition"
+          className="bg-green-500 text-white px-4 py-2 rounded-full font-semibold shadow-md hover:bg-green-400 transition w-30"
         >
-          💸 CashApp
+          💸 Cash
         </motion.a>
         <motion.a
           href="https://venmo.com/Chris-Bishop-153"
@@ -57,7 +57,7 @@ export default function Home() {
           rel="noopener noreferrer"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          className="bg-blue-500 text-white px-6 py-2 rounded-full font-semibold shadow-md hover:bg-blue-400 transition"
+          className="bg-blue-500 text-white px-4 py-2 rounded-full font-semibold shadow-md hover:bg-blue-400 transition w-30"
         >
           📲 Venmo
         </motion.a>
